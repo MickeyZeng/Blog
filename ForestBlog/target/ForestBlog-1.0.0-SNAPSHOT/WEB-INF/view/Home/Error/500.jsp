@@ -35,7 +35,7 @@
                     <h1><span class="icon">!</span>500<span class="sub">page not found</span></h1>
                 </header>
                 <div id="content_404">
-                    <h2>系统内容错误！</h2>
+                    <h2>系统内容错误！可能被小朋友破坏了！！</h2>
                     <div class="utilities">
                         <center>
                         <form name="formsearch" action="/search" id="formkeyword">

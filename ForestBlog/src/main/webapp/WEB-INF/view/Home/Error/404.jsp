@@ -5,7 +5,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>404 错误页面不存在</title>
+    <title>404 错误页面已被国足踢飞</title>
     <style type="text/css">
         body,div,h3,h4,li,ol{margin:0;padding:0}
         body{font:14px/1.5 'Microsoft YaHei','微软雅黑',Helvetica,Sans-serif;min-width:1200px;background:#f0f1f3;}
@@ -33,7 +33,7 @@
     <div class="error-page-container">
         <div class="error-page-main">
             <h3>
-                <strong>404</strong>很抱歉，您要访问的页面不存在！
+                <strong>404</strong>很抱歉，您要访问的页面不存在！应该能到月球找到相关页面
             </h3>
             <div class="error-page-actions">
                 <div>

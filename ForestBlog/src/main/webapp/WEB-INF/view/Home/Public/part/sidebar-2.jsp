@@ -70,7 +70,7 @@
     <%--网站概况 start--%>
     <aside id="php_text-22" class="widget php_text">
         <h3 class="widget-title">
-            <i class="fa fa-bars"></i>网站概况
+            <i class="fa fa-bars"></i>当前网站概况
         </h3>
         <div class="textwidget widget-text">
             <ul class="site-profile">
@@ -83,8 +83,7 @@
                 <li><i class="fa fa-pencil-square-o"></i> 最后更新：
                     <span style="color:#2F889A">
                                         <fmt:formatDate value="${lastUpdateArticle.articleUpdateTime}" pattern="yyyy年MM月dd日"/>
-
-                                   </span>
+                    </span>
                 </li>
             </ul>
         </div>
