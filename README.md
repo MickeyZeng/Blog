@@ -19,14 +19,6 @@
 确保 tomcat 配置中 `application context` 是 /，而不是 /ForestBlog。这是导致你们首页css样式全无的原因，因为引用css路径都是 /xxx/xxx.css
 ![image](https://github.com/saysky/ForestBlog/blob/master/uploads/tomcat.png)
 
-具体情况请看步骤
-
-## 使用步骤
-任何问题都可以联系我 <br/>
-Q Q：847064370 <br/>
-微信：847064370 <br/>
-在线留言：[https://liuyanzhao.com/message.html](https://liuyanzhao.com/message.html)
-
 #### 1、克隆项目  <br/>
 克隆或者下载项目到本地，解压，主要分为三个部分：ForestBlog、uploads 和 forest_blog.sql <br/>
 ForestBlog: 完整项目源码, 可以使用 IDEA 导入或者打开  <br/>
