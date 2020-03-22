@@ -61,19 +61,6 @@
                     <div class="single-content">
                             ${article.articleContent}
                     </div>
-                    <div class="s-weixin">
-                        <ul class="weimg1">
-                            <li><strong>微信</strong></li>
-                            <li>赶快加我聊天吧</li>
-                            <li><img src="/img/weixin.jpg"></li>
-                        </ul>
-                        <ul class="weimg2">
-                            <li><strong>博客交流群</strong></li>
-                            <li>海纳百川，大家来水</li>
-                            <li><img src="/img/qqGroup.jpg" alt="weinxin"></li>
-                        </ul>
-                        <div class="clear"></div>
-                    </div>
                     <div class="clear"></div>
                     <div id="social">
                         <div class="social-main">
@@ -181,28 +168,28 @@
 
 
                 <%--版权声明 start--%>
-            <div class="authorbio wow fadeInUp">
-                <img alt="${article.user.userNickname}" src="${article.user.userAvatar}"
-                     class="avatar avatar-64 photo" height="64" width="64">
-                <ul class="postinfo">
-                    <li></li>
-                    <li><strong>版权声明：</strong>本站原创文章，于<fmt:formatDate
-                            value="${article.articleCreateTime}"
-                            pattern="yyyy-MM-dd"/>，由
-                        <strong>
-                                ${article.user.userNickname}
-                        </strong>
-                        发表。
-                    </li>
-                    <li class="reprinted"><strong>转载请注明：</strong>
-                        <a href="/article/${article.articleId}"
-                           rel="bookmark"
-                           title="本文固定链接 /article/${article.articleId}">
-                                ${article.articleTitle} | ${options.optionSiteTitle}</a>
-                    </li>
-                </ul>
-                <div class="clear"></div>
-            </div>
+<%--            <div class="authorbio wow fadeInUp">--%>
+<%--                <img alt="${article.user.userNickname}" src="${article.user.userAvatar}"--%>
+<%--                     class="avatar avatar-64 photo" height="64" width="64">--%>
+<%--                <ul class="postinfo">--%>
+<%--                    <li></li>--%>
+<%--                    <li><strong>版权声明：</strong>本站原创文章，于<fmt:formatDate--%>
+<%--                            value="${article.articleCreateTime}"--%>
+<%--                            pattern="yyyy-MM-dd"/>，由--%>
+<%--                        <strong>--%>
+<%--                                ${article.user.userNickname}--%>
+<%--                        </strong>--%>
+<%--                        发表。--%>
+<%--                    </li>--%>
+<%--                    <li class="reprinted"><strong>转载请注明：</strong>--%>
+<%--                        <a href="/article/${article.articleId}"--%>
+<%--                           rel="bookmark"--%>
+<%--                           title="本文固定链接 /article/${article.articleId}">--%>
+<%--                                ${article.articleTitle} | ${options.optionSiteTitle}</a>--%>
+<%--                    </li>--%>
+<%--                </ul>--%>
+<%--                <div class="clear"></div>--%>
+<%--            </div>--%>
                 <%--版权声明 end--%>
 
                 <%--相关文章 start--%>
@@ -302,9 +289,9 @@
                     <form id="comment_form" method="post">
                         <c:if test="${sessionScope.user!=null}">
                             <div class="user_avatar">
-                                <img alt="言曌"
-                                     src="${sessionScope.user.userAvatar}"
-                                     class="avatar avatar-64 photo" height="64" width="64">
+<%--                                <img alt="言曌"--%>
+<%--                                     src="${sessionScope.user.userAvatar}"--%>
+<%--                                     class="avatar avatar-64 photo" height="64" width="64">--%>
                                 登录者：${sessionScope.user.userNickname}
                                 <br> <a href="javascript:void(0)" onclick="logout()">登出</a>
                                 <input type="hidden" name="commentRole" value="1">

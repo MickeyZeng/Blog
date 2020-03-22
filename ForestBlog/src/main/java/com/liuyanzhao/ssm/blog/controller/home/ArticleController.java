@@ -50,6 +50,8 @@ public class ArticleController {
     @RequestMapping(value = "/article/{articleId}")
     public String getArticleDetailPage(@PathVariable("articleId") Integer articleId, Model model) {
 
+//        System.out.println("Fuck You man R u here ?????");
+
         //文章信息，分类，标签，作者，评论
         Article article = articleService.getArticleByStatusAndId(ArticleStatus.PUBLISH.getValue(), articleId);
         if (article == null) {

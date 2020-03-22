@@ -43,7 +43,7 @@
                                     </a>
                                     <span class="cat">
                                               <a href="/category/${a.categoryList[0].categoryId}">${a.categoryList[0].categoryName}</a>
-                                        </span>
+                                    </span>
                                 </figure>
 
                                 <header class="entry-header">
