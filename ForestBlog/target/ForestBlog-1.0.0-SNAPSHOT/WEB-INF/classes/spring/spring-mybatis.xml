@@ -16,8 +16,9 @@
 
     <!--加载db.properties-->
     <context:property-placeholder location="classpath:db.properties"/>
-
-    <!--配置druid连接池-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
         <!-- 基本属性 url、user、password -->
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
